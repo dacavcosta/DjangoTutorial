@@ -1,0 +1,15 @@
+/* body {
+    background: white url("images/background.jpg") no-repeat center;
+} */
+
+body {
+    background-image: url('images/background.jpg'); /* ou background: url(...) */
+    background-size: cover;          /* Redimensiona a imagem para cobrir toda a tela, mantendo a proporção */
+    background-position: center;     /* Centraliza a imagem na tela */
+    background-repeat: no-repeat;    /* Impede que a imagem fique se repetindo em mosaico */
+    background-attachment: fixed;    /* (Opcional) Mantém o fundo fixo enquanto o usuário rola a página */
+}
+
+li a {
+    color: green;
+}
