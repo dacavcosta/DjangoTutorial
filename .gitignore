@@ -1,0 +1,27 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Banco local, mídia e arquivos estáticos coletados (ajuste conforme o projeto)
+*.sqlite3
+*.sqlite3-journal
+media/
+staticfiles/
+
+# Segredos / variáveis de ambiente
+.env
+.env.*
+local_settings.py
+
+# Editores e sistema operacional (Linux)
+.vscode/
+.DS_Store
